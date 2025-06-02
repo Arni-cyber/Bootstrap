@@ -101,3 +101,10 @@ footer {
   padding: 20px 1;
 }
 
+.pales{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
