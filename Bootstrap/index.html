@@ -180,9 +180,12 @@ O uso excessivo de classes específicas pode dificultar a manutenção e customi
             <label for="email">E-mail:</label>
             <input type="email" name="email" id="email" required="@"/>
 
-            <p><strong>Tipo de ingresso:</strong></p>
-            <label><input type="radio" name="ingresso" value="presencial" required /> Presencial</label>
-            <label><input type="radio" name="ingresso" value="online" /> Online</label>
+            <label for="Número de telefone">Número de telefone:</label>
+            <input type="telefone" name="telefone" id="telefone" minlength="8" maxlength="9"/>
+
+            <p><strong>Onde receber:</strong></p>
+            <label><input type="radio" name="ingresso" value="presencial" required /> Email</label>
+            <label><input type="radio" name="ingresso" value="online" /> Número de telefone</label>
 
             <label><input type="checkbox" name="termos" required /> Eu aceito os 
               <a href="https://www.rocketlawyer.com/br/pt/sem/termos-de-uso-site?utm_medium=cpc&utm_source=bing&utm_campaign=PSQ.Business&utm_term=Business&utm_content=Termo-de-uso&msclkid=344a449494c5100b8d062ca9635a0c2d">Termos e condições</a></label>
